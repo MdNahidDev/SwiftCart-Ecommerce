@@ -98,7 +98,7 @@ function displayCategories(categories) {
 }
 
 function displayTrending(products) {
-    // Get top rated products or just slice
+
     const trending = products.slice(0, 3);
     trendingContainer.innerHTML = "";
     trending.forEach(product => {
